@@ -30,7 +30,7 @@ Accessibility is in reference to the ease of use of a webpage or website
 
 1) scaled measurements.
 2) semantic html.
-3) alt text
+3) alt text for the screen readers.
 
 3. How would you explain the concept of a variable to someone new to programming?
 

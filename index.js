@@ -310,15 +310,15 @@ Use lotsOfArt to do the following:
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
 function lotsOfArt(array) {
-  let hundredArray = [];
-  for (let i = 0; i < artists.length; i++) {
-    if (artists[i]['paintings'].split > '100') {
-      hundredArray.push(artists[i]["name"]);
+  const hundredArray = [];
+  for (let i = 0; i < array.length; i++) {
+    if (artists[i]["paintings"] > 100) {
+      hundredArray.push(artists[i]);
     }
   }
-  return hundredArray;
 }
 
+console.log(hundredArray);
 
 /* ***** END OF TASKS ***** */
 
